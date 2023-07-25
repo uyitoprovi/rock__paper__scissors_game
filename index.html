@@ -1,0 +1,47 @@
+<!-- index.html -->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width,initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<title>Rock Paper Scissor</title>
+</head>
+<body>
+	<section class="game">
+		<!--Display Score of player and computer -->
+		<div class="score">
+			<!--player score-->
+			<div class="playerScore">
+				<h2>PlayerScore:</h2>
+				<p class="p-count count">0</p>
+
+			</div>	
+			<!--computer score-->
+			<div class="computerScore">
+				<h2>ComputerScore:</h2>
+				<p class="c-count count">0</p>
+			</div>
+		</div><br><br>
+		<!--count down the game-->
+		<div class="move">play times</div>	
+		<!--Number of play times before game ends -->
+		<p class="movesleft">count down:5</p>
+		<!--Options available to player to play game -->
+		<div class="options">
+			<button class="rock">Rock</button>
+			<button class="paper">Paper</button>
+			<button class="scissor">Scissors</button>	
+		</div>
+		<!--final result of the game -->
+				<div class="result"></div>
+				<!--Play again the game-->
+		<button class="reload"></button>
+
+	</section>
+
+	<script src="homep.js"></script>
+</body>
+</html>
